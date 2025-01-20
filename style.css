@@ -31,7 +31,7 @@ a:hover {
 }
 
 body {
-	background: #8E0D0D url( https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ledr.com%2Fcolours%2Fblack.htm&psig=AOvVaw0ODTAcBuSr_hdfYZ-J-G9O&ust=1737451262626000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCwp7z8g4sDFQAAAAAdAAAAABAE repeat-x;
+	background: #8E0D0D url('path/to/your/image.jpg'); https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ledr.com%2Fcolours%2Fblack.htm&psig=AOvVaw0ODTAcBuSr_hdfYZ-J-G9O&ust=1737451262626000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCwp7z8g4sDFQAAAAAdAAAAABAE repeat-x;
 	text-align: center;
 	font: 11px arial, sans-serif;
 	color: #565656;
