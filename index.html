@@ -6,6 +6,29 @@
 <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
 </head>
 <body>
+  <div id="contact-form">
+    <h2>Formularz Kontaktowy</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Imię i Nazwisko:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+  
+      <label for="email">Adres Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+  
+      <label for="subject">Temat:</label><br />
+      <select id="subject" name="subject" required>
+        <option value="ogolne">Ogólne zapytanie</option>
+        <option value="rezerwacja">Rezerwacja</option>
+        <option value="reklamacja">Reklamacja</option>
+      </select><br /><br />
+  
+      <label for="message">Wiadomość:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+  
+      <button type="submit">Wyślij</button>
+    </form>
+  </div>
+
 <div id="wrapper">
   <div id="left">
     <h1>Agencja Turystyczna</h1>
